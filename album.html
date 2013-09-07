@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>相册</title>
+
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link media="screen" rel="stylesheet" href="css/colorbox.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$("a[rel='example1']").colorbox();
+
+});
+</script>
+
+</head>
+
+<body>
+<div id="outside">
+	<div id="inside">
+    	<div id="header"></div>
+        <div id="navi">
+        	<a href="index.html">首页</a><span>|</span>
+            <a href="blog.html">日志</a>
+            <a href="album.html" class="cur">相册</a>
+            <a href="about.html">关于</a>
+            <div class="clear"></div>
+        </div>
+        <div id="pbody" style="height:600px;">
+        
+            <table width="800" border="0" align="center">
+                <tr>
+                    <td><a href="img/cit.jpg" rel="example1" title="Me and my grandfather on the Ohoopee."><img src="img/cit.jpg" width="180" /></a></td>
+                	<td><a href="img/draps.jpg" rel="example1" title="Me and my grandfather on the Ohoopee."><img src="img/draps.jpg" width="180" /></a></td>
+                	<td><a href="img/earth.jpg" rel="example1" title="Me and my grandfather on the Ohoopee."><img src="img/earth.jpg" width="180" /></a></td>
+                	<td><a href="img/flo.jpg" rel="example1" title="Me and my grandfather on the Ohoopee."><img src="img/flo.jpg" width="180" /></a></td>
+                </tr>
+            </table>
+             
+        </div>
+        <div id="footer">
+        	@版权
+        </div>
+    </div>
+</div>
+</body>
+</html>
